@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+
+table.lentele{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 350px;
+    height: 500px;
+}
+
+table.lentele tr td {
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#displejus{
+    background-color: black;
+    color: white;
+    text-align: right;
+    max-width: 200px;
+    font-size: 50px;
+    font-weight: 100;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.operatorius{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#lygybe {
+    color: white;
+    background-color: darkorange;
+
+}
+
+table.lentele td:hover{
+    background-color: lightgray;
+}
+
+table.lentele td.operatorius:hover{
+    background-color: lightgray;
+}
+
+table.lentele #lygybe:hover{
+    background-color: lightgray;
+}
+
+#sort:hover{
+    background-color: lightgray;
+}
+
+#history {
+    width: 440px;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana;
+    display: inline-block;
+
+}
+
+#history tr.header {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+#history td {
+    border: 2px solid black;
+    height: 30px;
+    width: 110px;
+}

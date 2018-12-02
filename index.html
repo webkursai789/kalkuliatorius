@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    <script src="scr/script.js" type="text/javascript" language="JavaScript"></script>
+
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <table class="lentele">
+        <tr>
+            <td id="displejus" colspan="4"></td>
+        </tr>
+        <tr>
+            <td onclick="PridekSkaiciu('7')">7</td>
+            <td onclick="PridekSkaiciu('8')">8</td>
+            <td onclick="PridekSkaiciu('9')">9</td>
+            <td class="operatorius" onclick="action('/')">/</td>
+        </tr>
+        <tr>
+            <td onclick="PridekSkaiciu('4')">4</td>
+            <td onclick="PridekSkaiciu('5')">5</td>
+            <td onclick="PridekSkaiciu('6')">6</td>
+            <td class="operatorius" onclick="action('*')">x</td>
+        </tr>
+        <tr>
+            <td onclick="PridekSkaiciu('1')">1</td>
+            <td onclick="PridekSkaiciu('2')">2</td>
+            <td onclick="PridekSkaiciu('3')">3</td>
+            <td class="operatorius" onclick="action('-')">-</td>
+        </tr>
+        <tr>
+            <td onclick="PridekSkaiciu('0')" colspan="2">0</td>
+            <td onclick="PridekSkaiciu('.')">.</td>
+            <td class="operatorius" rowspan="2" onclick="action('+')">+</td>
+        </tr>
+        <tr>
+            <td id="lygybe" colspan="3" onclick="Suskaiciuok()">=</td>
+        </tr>
+    </table>
+
+
+</div>
+<div>
+    <table id="history"></table>
+
+</div>
+
+
+</body>
+</html>
